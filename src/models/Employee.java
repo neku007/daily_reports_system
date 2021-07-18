@@ -54,7 +54,7 @@ public class Employee {
 
     // ログインパスワード
     // length 文字数制限 ↓だと64文字まで
-    @Column(name = "pasuwado", length = 64, nullable = false)
+    @Column(name = "passwordo", length = 64, nullable = false)
     private String password;
 
     // 管理者権限の有無
@@ -73,6 +73,8 @@ public class Employee {
     @Column(name = "delete_flag", nullable = false)
     private Integer delete_flag;
 
+
+    // getter setter
     public Integer getId() {
         return id;
     }
@@ -136,7 +138,4 @@ public class Employee {
     public void setDelete_flag(Integer delete_flag) {
         this.delete_flag = delete_flag;
     }
-
-
-
 }
