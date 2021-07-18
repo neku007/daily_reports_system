@@ -77,6 +77,7 @@ public class LoginServlet extends HttpServlet {
 
             em.close();
 
+
             if(e != null) {
                 check_result = true;
             }
