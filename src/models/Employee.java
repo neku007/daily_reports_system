@@ -54,7 +54,7 @@ public class Employee {
 
     // ログインパスワード
     // length 文字数制限 ↓だと64文字まで
-    @Column(name = "passwordo", length = 64, nullable = false)
+    @Column(name = "password", length = 64, nullable = false)
     private String password;
 
     // 管理者権限の有無
